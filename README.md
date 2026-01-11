@@ -27,6 +27,4 @@ npm install
 # Ejecutar la aplicación en modo desarrollo
 npm start
 
-<a href="https://leonelher07.github.io/conscellence/" target="_blank">
-  🚀 Ver Demo
-</a>
+[Ver demo](https://leonelher07.github.io/conscellence/)
