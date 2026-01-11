@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://leonelher07.github.io/conscellence/",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -35,5 +34,4 @@
     "tailwindcss": "^4.1.18",
     "vite": "^7.2.4"
   }
-  
 }
