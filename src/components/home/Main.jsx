@@ -1,40 +1,41 @@
 import Ilustra from "../../assets/ilust.svg"
 
-const main = () => {
+const Main = () => {
   return (
-    <section className="flex ">
-        <div className="relative">
-            <div className="pt-[120px] pl-[120px] absolute">
-                <h1 className="leading-none w-[720px]">
-                    <span className="block text-blue-600 text-[56px]">Unlock Your Potential</span>
-                    <span className="block text-black-900 text-[56px]">with Strategic</span>
-                    <span className="block text-black-900 text-[56px]">Consulting</span>
-                </h1>
-                <br />
-                <p>Guiding Your Success Journey Through Expertise and Innovation</p>
+    <section className="flex flex-col md:flex-row items-center md:items-start relative md:pt-[120px] md:pl-[120px] px-6 pt-12">
+      
+      {/* Texto */}
+      <div className="md:w-[720px] w-full text-left md:text-left">
+        <h1 className="leading-tight md:leading-none">
+          <span className="block text-blue-600 text-4xl md:text-[56px]">Unlock Your Potential</span>
+          <span className="block text-black text-4xl md:text-[56px]">with Strategic</span>
+          <span className="block text-black text-4xl md:text-[56px]">Consulting</span>
+        </h1>
 
-                <div className="mt-[48px] flex gap-4">
-                    <a href="/" className="flex gap-3 w-[320px] h-[56px]  rounded-3xl justify-center items-center bg-white text-xs text-gray-400">
-                        <i class="bi bi-envelope text-xl" ></i>
-                        Enter your email to get started
-                    </a>
+        <p className="mt-4 md:mt-6 text-gray-600">
+          Guiding Your Success Journey Through Expertise and Innovation
+        </p>
 
-                    <a href="/" className="flex gap-3 w-[208px] h-[56px]  rounded-3xl justify-center items-center bg-blue-600 text-white text-base">
-                        GET STARTED
-                        <i class="bi bi-arrow-up-right-circle-fill text-4xl"></i>
-                    </a>  
-                </div>
-            </div>
+        <div className="mt-6 md:mt-[48px] flex flex-col md:flex-row gap-4 md:gap-4">
+          <a href="/" className="flex gap-3 w-full md:w-[320px] h-[56px] rounded-3xl justify-center items-center bg-white text-xs text-gray-400 border border-gray-300">
+            <i className="bi bi-envelope text-xl"></i>
+            Enter your email to get started
+          </a>
 
-            <div className='absolute w-[750px] top-0 left-190  '>
-                <img src={Ilustra} alt="" />
-            </div>
-
-            
-
+          <a href="/" className="flex gap-3 w-full md:w-[208px] h-[56px] rounded-3xl justify-center items-center bg-blue-600 text-white text-base">
+            GET STARTED
+            <i className="bi bi-arrow-up-right-circle-fill text-2xl md:text-4xl"></i>
+          </a>  
         </div>
+      </div>
+
+      {/* Imagen */}
+      <div className="hidden md:flex mb:hidden mt-6 md:mt-0 md:ml-12 flex justify-end md:justify-start md:absolute md:top-0 md:left-[750px] w-full md:w-auto">
+        <img src={Ilustra} alt="Ilustración" className="w-full max-w-[750px] md:w-auto" />
+      </div>
+
     </section>
   )
 }
 
-export default main
+export default Main

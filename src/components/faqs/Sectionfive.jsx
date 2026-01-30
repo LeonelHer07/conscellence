@@ -5,7 +5,8 @@ const Sectionfive = () => {
 
 
   return (
-    <div className='bg-[#64748B] mx-[24px] px-[320px] pt-[80px] pb-[120px] rounded-[56px]'>
+    <div className="bg-[#64748B] mx-3 px-4 md:mx-[24px] md:px-[320px] pt-12 md:pt-[80px] pb-12 md:pb-[120px] rounded-xl md:rounded-[56px]">
+
       <h1 className='text-white text-[48px]'>FAQs</h1>
       <Toggle
          tittle="What services does Conscellence offer?"

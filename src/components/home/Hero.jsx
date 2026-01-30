@@ -8,9 +8,6 @@ const Hero = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "100% 100%",
         position: "relative",
-        
-         
-       
     };
 
   return (

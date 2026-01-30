@@ -2,11 +2,10 @@ import React from 'react'
 
 const Title = () => {
   return (
-    <div className='text-[40px]'>
-        <h2>
-            Are You Running Into These Problems
-        </h2>
-
+    <div>
+      <h2 className="text-2xl md:text-[40px]">
+        Are You Running Into These Problems
+      </h2>
     </div>
   )
 }
